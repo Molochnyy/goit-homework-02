@@ -12,6 +12,12 @@ body {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .header {
@@ -32,6 +38,12 @@ body {
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .header-studio {
@@ -244,4 +256,18 @@ body {
     width: 1440px;
     height: 312px;
     flex-shrink: 0;
+}
+
+.footer-text {
+    color: var(--CLOUD, #F4F4FD);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    width: 264px;
 }
