@@ -14,6 +14,15 @@ body {
     text-transform: uppercase;
 }
 
+.header {
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+
 .header-studio .footer-studio {
     font-family: Raleway;
     font-size: 18px;
@@ -97,4 +106,38 @@ body {
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.64px;
+}
+
+.underhero {
+    background: #FFF;
+    width: 1440px;
+    height: 3300px;
+}
+
+.underhero-h {
+    color: #2E2F42;
+
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+    width: 264px;
+}
+
+.underhero-text {
+    color: var(--SLATE, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    width: 264px;
 }
