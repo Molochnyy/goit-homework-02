@@ -124,7 +124,7 @@ ol {
 /* Section 2 */
 
 .ourteam {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
     line-height: 1.11
 }
 
@@ -150,12 +150,14 @@ ol {
 }
 
 .ourteam-text {
+    background-color: #FFFFFF;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Section 3 */
